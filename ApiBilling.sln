@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexer.Data", "src\Nexer.Data\Nexer.Data.csproj", "{FEB67A6D-8E4B-4F14-B215-4CC21148075C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexer.Business", "src\Nexer.Business\Nexer.Business.csproj", "{14B8E56D-A71B-49E3-AC49-1E659F1E6AE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEB67A6D-8E4B-4F14-B215-4CC21148075C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB67A6D-8E4B-4F14-B215-4CC21148075C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB67A6D-8E4B-4F14-B215-4CC21148075C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB67A6D-8E4B-4F14-B215-4CC21148075C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14B8E56D-A71B-49E3-AC49-1E659F1E6AE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B8E56D-A71B-49E3-AC49-1E659F1E6AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B8E56D-A71B-49E3-AC49-1E659F1E6AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B8E56D-A71B-49E3-AC49-1E659F1E6AE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EE3F1E5-ED75-4170-B28C-CC9D6EE6C479}
+	EndGlobalSection
+EndGlobal
