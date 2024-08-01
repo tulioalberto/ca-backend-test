@@ -1,0 +1,6 @@
+@Nexer.Api_HostAddress = http://localhost:5211
+
+GET {{Nexer.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

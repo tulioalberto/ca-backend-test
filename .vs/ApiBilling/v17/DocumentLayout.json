@@ -3,44 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Tulio\\source\\repos\\tulioalberto\\ca-backend-test\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{14B8E56D-A71B-49E3-AC49-1E659F1E6AE9}|src\\Nexer.Business\\Nexer.Business.csproj|c:\\users\\tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\nexer.business\\services\\produtcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14B8E56D-A71B-49E3-AC49-1E659F1E6AE9}|src\\Nexer.Business\\Nexer.Business.csproj|solutionrelative:src\\nexer.business\\services\\produtcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5657574B-71BF-4794-8153-92681C4C7B3E}|src\\Nexer.Api\\Nexer.Api.csproj|c:\\users\\tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\nexer.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5657574B-71BF-4794-8153-92681C4C7B3E}|src\\Nexer.Api\\Nexer.Api.csproj|solutionrelative:src\\nexer.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14B8E56D-A71B-49E3-AC49-1E659F1E6AE9}|src\\Nexer.Business\\Nexer.Business.csproj|c:\\users\\tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\nexer.business\\services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14B8E56D-A71B-49E3-AC49-1E659F1E6AE9}|src\\Nexer.Business\\Nexer.Business.csproj|solutionrelative:src\\nexer.business\\services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5657574B-71BF-4794-8153-92681C4C7B3E}|src\\Nexer.Api\\Nexer.Api.csproj|c:\\users\\tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\nexer.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5657574B-71BF-4794-8153-92681C4C7B3E}|src\\Nexer.Api\\Nexer.Api.csproj|solutionrelative:src\\nexer.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14B8E56D-A71B-49E3-AC49-1E659F1E6AE9}|src\\Nexer.Business\\Nexer.Business.csproj|c:\\users\\tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\nexer.business\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14B8E56D-A71B-49E3-AC49-1E659F1E6AE9}|src\\Nexer.Business\\Nexer.Business.csproj|solutionrelative:src\\nexer.business\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEB67A6D-8E4B-4F14-B215-4CC21148075C}|src\\Nexer.Data\\Nexer.Data.csproj|c:\\users\\tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\nexer.data\\context\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB67A6D-8E4B-4F14-B215-4CC21148075C}|src\\Nexer.Data\\Nexer.Data.csproj|solutionrelative:src\\nexer.data\\context\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14B8E56D-A71B-49E3-AC49-1E659F1E6AE9}|src\\Nexer.Business\\Nexer.Business.csproj|c:\\users\\tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\nexer.business\\interfaces\\inotificator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14B8E56D-A71B-49E3-AC49-1E659F1E6AE9}|src\\Nexer.Business\\Nexer.Business.csproj|solutionrelative:src\\nexer.business\\interfaces\\inotificator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14B8E56D-A71B-49E3-AC49-1E659F1E6AE9}|src\\Nexer.Business\\Nexer.Business.csproj|c:\\users\\tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\nexer.business\\notifications\\notificator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14B8E56D-A71B-49E3-AC49-1E659F1E6AE9}|src\\Nexer.Business\\Nexer.Business.csproj|solutionrelative:src\\nexer.business\\notifications\\notificator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14B8E56D-A71B-49E3-AC49-1E659F1E6AE9}|src\\Nexer.Business\\Nexer.Business.csproj|c:\\users\\tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\nexer.business\\notifications\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14B8E56D-A71B-49E3-AC49-1E659F1E6AE9}|src\\Nexer.Business\\Nexer.Business.csproj|solutionrelative:src\\nexer.business\\notifications\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14B8E56D-A71B-49E3-AC49-1E659F1E6AE9}|src\\Nexer.Business\\Nexer.Business.csproj|c:\\users\\tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\nexer.business\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14B8E56D-A71B-49E3-AC49-1E659F1E6AE9}|src\\Nexer.Business\\Nexer.Business.csproj|solutionrelative:src\\nexer.business\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14B8E56D-A71B-49E3-AC49-1E659F1E6AE9}|src\\Nexer.Business\\Nexer.Business.csproj|c:\\users\\tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\nexer.business\\interfaces\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14B8E56D-A71B-49E3-AC49-1E659F1E6AE9}|src\\Nexer.Business\\Nexer.Business.csproj|solutionrelative:src\\nexer.business\\interfaces\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14B8E56D-A71B-49E3-AC49-1E659F1E6AE9}|src\\Nexer.Business\\Nexer.Business.csproj|c:\\users\\tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\nexer.business\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14B8E56D-A71B-49E3-AC49-1E659F1E6AE9}|src\\Nexer.Business\\Nexer.Business.csproj|solutionrelative:src\\nexer.business\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14B8E56D-A71B-49E3-AC49-1E659F1E6AE9}|src\\Nexer.Business\\Nexer.Business.csproj|c:\\users\\tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\nexer.business\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14B8E56D-A71B-49E3-AC49-1E659F1E6AE9}|src\\Nexer.Business\\Nexer.Business.csproj|solutionrelative:src\\nexer.business\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEB67A6D-8E4B-4F14-B215-4CC21148075C}|src\\Nexer.Data\\Nexer.Data.csproj|c:\\users\\tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\nexer.data\\migrations\\20240801023524_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB67A6D-8E4B-4F14-B215-4CC21148075C}|src\\Nexer.Data\\Nexer.Data.csproj|solutionrelative:src\\nexer.data\\migrations\\20240801023524_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,128 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BaseService.cs",
-              "DocumentMoniker": "C:\\Users\\Tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\Nexer.Business\\Services\\BaseService.cs",
-              "RelativeDocumentMoniker": "src\\Nexer.Business\\Services\\BaseService.cs",
-              "ToolTip": "C:\\Users\\Tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\Nexer.Business\\Services\\BaseService.cs",
-              "RelativeToolTip": "src\\Nexer.Business\\Services\\BaseService.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAawCMAAAA2AAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\Nexer.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Nexer.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\Nexer.Api\\Program.cs",
+              "RelativeToolTip": "src\\Nexer.Api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T03:18:54.116Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CustomerService.cs",
-              "DocumentMoniker": "C:\\Users\\Tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\Nexer.Business\\Services\\CustomerService.cs",
-              "RelativeDocumentMoniker": "src\\Nexer.Business\\Services\\CustomerService.cs",
-              "ToolTip": "C:\\Users\\Tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\Nexer.Business\\Services\\CustomerService.cs",
-              "RelativeToolTip": "src\\Nexer.Business\\Services\\CustomerService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T03:19:15.911Z"
+              "WhenOpened": "2024-08-01T02:22:14.569Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProdutcService.cs",
-              "DocumentMoniker": "C:\\Users\\Tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\Nexer.Business\\Services\\ProdutcService.cs",
-              "RelativeDocumentMoniker": "src\\Nexer.Business\\Services\\ProdutcService.cs",
-              "ToolTip": "C:\\Users\\Tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\Nexer.Business\\Services\\ProdutcService.cs",
-              "RelativeToolTip": "src\\Nexer.Business\\Services\\ProdutcService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T03:27:34.03Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\Nexer.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Nexer.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\Tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\Nexer.Api\\appsettings.json",
+              "RelativeToolTip": "src\\Nexer.Api\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-01T02:20:16.146Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "INotificator.cs",
-              "DocumentMoniker": "C:\\Users\\Tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\Nexer.Business\\Interfaces\\INotificator.cs",
-              "RelativeDocumentMoniker": "src\\Nexer.Business\\Interfaces\\INotificator.cs",
-              "ToolTip": "C:\\Users\\Tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\Nexer.Business\\Interfaces\\INotificator.cs",
-              "RelativeToolTip": "src\\Nexer.Business\\Interfaces\\INotificator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAPAAAA",
+              "Title": "20240801023524_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\Tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\Nexer.Data\\Migrations\\20240801023524_Initial.cs",
+              "RelativeDocumentMoniker": "src\\Nexer.Data\\Migrations\\20240801023524_Initial.cs",
+              "ToolTip": "C:\\Users\\Tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\Nexer.Data\\Migrations\\20240801023524_Initial.cs",
+              "RelativeToolTip": "src\\Nexer.Data\\Migrations\\20240801023524_Initial.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T04:10:47.042Z"
+              "WhenOpened": "2024-08-01T02:35:24.983Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Notificator.cs",
-              "DocumentMoniker": "C:\\Users\\Tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\Nexer.Business\\Notifications\\Notificator.cs",
-              "RelativeDocumentMoniker": "src\\Nexer.Business\\Notifications\\Notificator.cs",
-              "ToolTip": "C:\\Users\\Tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\Nexer.Business\\Notifications\\Notificator.cs",
-              "RelativeToolTip": "src\\Nexer.Business\\Notifications\\Notificator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAJAAAA",
+              "DocumentIndex": 2,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\Nexer.Data\\Context\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "src\\Nexer.Data\\Context\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\Tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\Nexer.Data\\Context\\MyDbContext.cs",
+              "RelativeToolTip": "src\\Nexer.Data\\Context\\MyDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T04:12:05.769Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Notification.cs",
-              "DocumentMoniker": "C:\\Users\\Tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\Nexer.Business\\Notifications\\Notification.cs",
-              "RelativeDocumentMoniker": "src\\Nexer.Business\\Notifications\\Notification.cs",
-              "ToolTip": "C:\\Users\\Tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\Nexer.Business\\Notifications\\Notification.cs",
-              "RelativeToolTip": "src\\Nexer.Business\\Notifications\\Notification.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T04:09:41.357Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ICustomerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\Nexer.Business\\Interfaces\\ICustomerRepository.cs",
-              "RelativeDocumentMoniker": "src\\Nexer.Business\\Interfaces\\ICustomerRepository.cs",
-              "ToolTip": "C:\\Users\\Tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\Nexer.Business\\Interfaces\\ICustomerRepository.cs",
-              "RelativeToolTip": "src\\Nexer.Business\\Interfaces\\ICustomerRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T03:22:07.374Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ICustomerService.cs",
-              "DocumentMoniker": "C:\\Users\\Tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\Nexer.Business\\Interfaces\\ICustomerService.cs",
-              "RelativeDocumentMoniker": "src\\Nexer.Business\\Interfaces\\ICustomerService.cs",
-              "ToolTip": "C:\\Users\\Tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\Nexer.Business\\Interfaces\\ICustomerService.cs",
-              "RelativeToolTip": "src\\Nexer.Business\\Interfaces\\ICustomerService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T03:29:02.851Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\Tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\Nexer.Business\\Interfaces\\IProductService.cs",
-              "RelativeDocumentMoniker": "src\\Nexer.Business\\Interfaces\\IProductService.cs",
-              "ToolTip": "C:\\Users\\Tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\Nexer.Business\\Interfaces\\IProductService.cs",
-              "RelativeToolTip": "src\\Nexer.Business\\Interfaces\\IProductService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T03:21:54.717Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\Nexer.Business\\Interfaces\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "src\\Nexer.Business\\Interfaces\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\Tulio\\source\\repos\\tulioalberto\\ca-backend-test\\src\\Nexer.Business\\Interfaces\\IProductRepository.cs",
-              "RelativeToolTip": "src\\Nexer.Business\\Interfaces\\IProductRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T03:16:05.295Z"
+              "WhenOpened": "2024-07-31T04:32:52.626Z"
             }
           ]
         }
