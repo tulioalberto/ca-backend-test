@@ -5,7 +5,7 @@ using Nexer.Data.Context;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
-//.ConfigureApiBehaviorOptions(options =>
+// .ConfigureApiBehaviorOptions(options =>
 // {
 //     options.SuppressModelStateInvalidFilter = true;
 // });
@@ -16,7 +16,7 @@ builder.Configuration.AddUserSecrets<Program>();
 var secretPassword = builder.Configuration["SECRETPASSWORD"];
 if (string.IsNullOrEmpty(secretPassword))
 {
-    throw new InvalidOperationException("Secret password not found in user secrets");
+    throw new InvalidOperationException("Chaves nao encontradas");
 }
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection").Replace("{Secret}", secretPassword);
@@ -26,7 +26,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<MyDbContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+    options.UseSqlServer(connectionString);
 });
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());

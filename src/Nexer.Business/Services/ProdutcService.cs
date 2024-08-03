@@ -7,12 +7,12 @@ namespace Nexer.Business.Services
 {
     public class ProductService : BaseService, IProductService
     {
-        private readonly IProductService _productService;
+        private readonly IProductRepository _productRepository;
 
-        public ProductService(IProductService productService,
+        public ProductService(IProductRepository productRepository,
             INotificator notificator) : base(notificator)
         {
-            _productService = productService;
+            _productRepository = productRepository;
         }
 
         public async Task Add(Product product)
@@ -20,7 +20,7 @@ namespace Nexer.Business.Services
             if(!ExecuteValidation(new ProductValidation(), product))
                 return;
 
-            await _productService.Add(product);
+            await _productRepository.Add(product);
         }
 
         public async Task Update(Product product)
@@ -28,18 +28,18 @@ namespace Nexer.Business.Services
             if (!ExecuteValidation(new ProductValidation(), product))
                 return;
 
-            await _productService.Update(product);
+            await _productRepository.Update(product);
         }
 
         public async Task Remove(Guid id)
         {
-            await _productService.Remove(id);
+            await _productRepository.Remove(id);
         }
 
         //limpeza do garbage collector
         public void Dispose()
         {
-            _productService.Dispose();
+            _productRepository.Dispose();
         }
     }
 }
