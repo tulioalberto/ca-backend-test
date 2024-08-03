@@ -5,11 +5,11 @@ using Nexer.Business.Models.Validations;
 
 namespace Nexer.Business.Services
 {
-    public class ProdutcService : BaseService, IProductService
+    public class ProductService : BaseService, IProductService
     {
         private readonly IProductService _productService;
 
-        public ProdutcService(IProductService productService,
+        public ProductService(IProductService productService,
             INotificator notificator) : base(notificator)
         {
             _productService = productService;

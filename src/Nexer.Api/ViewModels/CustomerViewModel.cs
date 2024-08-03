@@ -21,6 +21,8 @@ namespace Nexer.Api.ViewModels
         [StringLength(1000, ErrorMessage = "The field need to have betwrrn {2} and {1} characters ", MinimumLength = 2)]
         public string? Address { get; set; }
 
-        public IEnumerable<ProductViewModel> Products { get; set; }
+        
+
+        public IEnumerable<ProductViewModel>? Products { get; set; }
     }
 }

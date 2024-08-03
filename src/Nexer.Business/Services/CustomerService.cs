@@ -18,6 +18,12 @@ namespace Nexer.Business.Services
             if (!ExecuteValidation(new CustomerValidation(), customer))
                 return;
 
+            if(_customerRepository.Search(c => c.Id == customer.Id).Result.Any())
+            {
+                Notificate("Already exist this customer in the Database");
+                return;
+            }
+
             await _customerRepository.Add(customer);
         }
 

@@ -6,8 +6,9 @@ namespace Nexer.Api.ViewModels
     {
         public Guid Id { get; set; }
 
-        [Required(ErrorMessage = "The field {0} is required")]
-        public Guid CustomerId { get; set; }
+        //[Required(ErrorMessage = "The field {0} is required")]
+        public Guid? CustomerId { get; set; }
+        public string? CustomerName { get; set; }
 
         [Required(ErrorMessage = "The field {0} is required")]
         [StringLength(100, ErrorMessage ="The field need to have between {2} and {1} characters ", MinimumLength = 2)]

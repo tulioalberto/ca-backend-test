@@ -1,3 +1,11 @@
+C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\obj\Debug\net8.0\Nexer.Api.csproj.AssemblyReference.cache
+C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\obj\Debug\net8.0\Nexer.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\obj\Debug\net8.0\Nexer.Api.AssemblyInfoInputs.cache
+C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\obj\Debug\net8.0\Nexer.Api.AssemblyInfo.cs
+C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\obj\Debug\net8.0\Nexer.Api.csproj.CoreCompileInputs.cache
+C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\obj\Debug\net8.0\Nexer.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\obj\Debug\net8.0\Nexer.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\obj\Debug\net8.0\Nexer.Api.sourcelink.json
 C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\bin\Debug\net8.0\appsettings.json
 C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\bin\Debug\net8.0\Nexer.Api.exe
@@ -5,6 +13,8 @@ C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\bin\Debug
 C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\bin\Debug\net8.0\Nexer.Api.runtimeconfig.json
 C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\bin\Debug\net8.0\Nexer.Api.dll
 C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\bin\Debug\net8.0\Nexer.Api.pdb
+C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\bin\Debug\net8.0\FluentValidation.dll
@@ -118,14 +128,6 @@ C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\bin\Debug
 C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\bin\Debug\net8.0\Nexer.Data.dll
 C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\bin\Debug\net8.0\Nexer.Business.pdb
 C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\bin\Debug\net8.0\Nexer.Data.pdb
-C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\obj\Debug\net8.0\Nexer.Api.csproj.AssemblyReference.cache
-C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\obj\Debug\net8.0\Nexer.Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\obj\Debug\net8.0\Nexer.Api.AssemblyInfoInputs.cache
-C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\obj\Debug\net8.0\Nexer.Api.AssemblyInfo.cs
-C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\obj\Debug\net8.0\Nexer.Api.csproj.CoreCompileInputs.cache
-C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\obj\Debug\net8.0\Nexer.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\obj\Debug\net8.0\Nexer.Api.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\obj\Debug\net8.0\Nexer.Api.sourcelink.json
 C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Api\obj\Debug\net8.0\staticwebassets\msbuild.Nexer.Api.Microsoft.AspNetCore.StaticWebAssets.props
