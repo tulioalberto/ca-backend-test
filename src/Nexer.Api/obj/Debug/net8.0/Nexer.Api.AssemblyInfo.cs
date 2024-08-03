@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("bcd006f8-a7e3-443f-8021-0f7b5889b5e2")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Nexer.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+085b23dfea5467e88e1887594a234377b321bc88")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+368783bafb2a628a32e58c1f7471740d4f9fd0ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nexer.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nexer.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

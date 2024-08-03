@@ -10,6 +10,17 @@ builder.Services.AddControllers();
 //     options.SuppressModelStateInvalidFilter = true;
 // });
 
+// Adicionar a configuração de segredos de usuário
+builder.Configuration.AddUserSecrets<Program>();
+
+var secretPassword = builder.Configuration["SECRETPASSWORD"];
+if (string.IsNullOrEmpty(secretPassword))
+{
+    throw new InvalidOperationException("Secret password not found in user secrets");
+}
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection").Replace("{Secret}", secretPassword);
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
