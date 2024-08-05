@@ -22,6 +22,73 @@ namespace Nexer.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Nexer.Business.Models.Billing", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Currency")
+                        .IsRequired()
+                        .HasColumnType("varchar(10)");
+
+                    b.Property<Guid>("CustomerId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DueDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("InvoiceNumber")
+                        .IsRequired()
+                        .HasColumnType("varchar(50)");
+
+                    b.Property<decimal>("TotalAmount")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CustomerId");
+
+                    b.ToTable("Billings", (string)null);
+                });
+
+            modelBuilder.Entity("Nexer.Business.Models.BillingLine", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("BillingLineId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("varchar(200)");
+
+                    b.Property<Guid>("ProductId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("Subtotal")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal>("UnitPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BillingLineId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("BillingLines", (string)null);
+                });
+
             modelBuilder.Entity("Nexer.Business.Models.Customer", b =>
                 {
                     b.Property<Guid>("Id")
@@ -54,10 +121,6 @@ namespace Nexer.Data.Migrations
                     b.Property<Guid>("CustomerId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("varchar(1000)");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("varchar(200)");
@@ -67,6 +130,33 @@ namespace Nexer.Data.Migrations
                     b.HasIndex("CustomerId");
 
                     b.ToTable("Products", (string)null);
+                });
+
+            modelBuilder.Entity("Nexer.Business.Models.Billing", b =>
+                {
+                    b.HasOne("Nexer.Business.Models.Customer", "Customer")
+                        .WithMany("Billings")
+                        .HasForeignKey("CustomerId")
+                        .IsRequired();
+
+                    b.Navigation("Customer");
+                });
+
+            modelBuilder.Entity("Nexer.Business.Models.BillingLine", b =>
+                {
+                    b.HasOne("Nexer.Business.Models.Billing", "Billing")
+                        .WithMany("BillingLines")
+                        .HasForeignKey("BillingLineId")
+                        .IsRequired();
+
+                    b.HasOne("Nexer.Business.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .IsRequired();
+
+                    b.Navigation("Billing");
+
+                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("Nexer.Business.Models.Product", b =>
@@ -79,8 +169,15 @@ namespace Nexer.Data.Migrations
                     b.Navigation("Customer");
                 });
 
+            modelBuilder.Entity("Nexer.Business.Models.Billing", b =>
+                {
+                    b.Navigation("BillingLines");
+                });
+
             modelBuilder.Entity("Nexer.Business.Models.Customer", b =>
                 {
+                    b.Navigation("Billings");
+
                     b.Navigation("Products");
                 });
 #pragma warning restore 612, 618

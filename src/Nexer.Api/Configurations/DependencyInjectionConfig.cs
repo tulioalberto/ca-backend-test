@@ -20,6 +20,9 @@ namespace Nexer.Api.Configurations
             services.AddScoped<ICustomerService, CustomerService>();
             services.AddScoped<INotificator, Notificator>();
 
+            services.AddScoped<IBillingRepository, BillingRepository>();
+            services.AddScoped<IBillingService, BillingService>();
+
             return services;
         }
     }

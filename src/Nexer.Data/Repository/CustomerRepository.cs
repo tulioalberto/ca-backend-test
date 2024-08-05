@@ -1,5 +1,4 @@
 ﻿
-
 using Microsoft.EntityFrameworkCore;
 using Nexer.Business.Interfaces;
 using Nexer.Business.Models;

@@ -6,5 +6,6 @@ namespace Nexer.Business.Interfaces
     {
         Task<IEnumerable<Product>> GetProductsByCustomer();
         Task<Product> GetProductCustomer(Guid id);
+        Task<List<Guid>> GetProductIdsAsync(IEnumerable<Guid> productIds);
     }
 }

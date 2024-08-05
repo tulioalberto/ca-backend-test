@@ -1,5 +1,4 @@
-﻿
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Nexer.Business.Interfaces;
 using Nexer.Business.Models;
 using Nexer.Data.Context;
@@ -23,6 +22,14 @@ namespace Nexer.Data.Repository
                 .Include(f => f.Customer)
                 .OrderBy(p => p.Name)
                 .ToListAsync();
+        }
+
+        public async Task<List<Guid>> GetProductIdsAsync(IEnumerable<Guid> productIds)
+        {
+            return await Db.Products
+                                 .Where(p => productIds.Contains(p.Id))
+                                 .Select(p => p.Id)
+                                 .ToListAsync();
         }
     }
 }

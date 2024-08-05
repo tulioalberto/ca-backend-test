@@ -63,7 +63,7 @@ namespace Nexer.Api.Controllers
             var productUpdate = await GetProduct(id);
 
             productUpdate.Name = productViewModel.Name;
-            productUpdate.Description = productViewModel.Description;
+            //productUpdate.Description = productViewModel.Description;
 
             await _productRepository.Update(_mapper.Map<Product>(productUpdate));
 

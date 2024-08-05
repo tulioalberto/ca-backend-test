@@ -10,7 +10,7 @@ namespace Nexer.Business.Services
         private readonly IProductRepository _productRepository;
 
         public ProductService(IProductRepository productRepository,
-            INotificator notificator) : base(notificator)
+                              INotificator notificator) : base(notificator)
         {
             _productRepository = productRepository;
         }
@@ -19,6 +19,14 @@ namespace Nexer.Business.Services
         {
             if(!ExecuteValidation(new ProductValidation(), product))
                 return;
+
+            var exitedProduct = _productRepository.GetById(product.Id);
+
+            if (exitedProduct != null)
+            {
+                Notificate("A product with this ID already exists.");
+                return;
+            }
 
             await _productRepository.Add(product);
         }

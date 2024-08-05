@@ -13,7 +13,8 @@ namespace Nexer.Data.Context
 
         public DbSet<Product> Products { get; set; }
         public DbSet<Customer> Customers { get; set; }
-
+        public DbSet<Billing> Billings { get; set; }
+        public DbSet<BillingLine> BillingLines { get; set; }
 
         // vai pegar todos DbSet aqui para todos os mapeamentos para criar a colecao da memoria
         protected override void OnModelCreating(ModelBuilder modelBuilder)

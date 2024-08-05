@@ -8,5 +8,6 @@ namespace Nexer.Business.Models
         public string? Address { get; set; }
 
         public IEnumerable<Product> Products { get; set; }
+        public IEnumerable<Billing> Billings { get; set; }
     }
 }

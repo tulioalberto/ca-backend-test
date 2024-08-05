@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Nexer.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8350f56f792654afb9532d017e2adbd7c712ed37")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eadd77494060726c7c1f29e9497befc7898c0622")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nexer.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nexer.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

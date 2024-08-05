@@ -15,9 +15,9 @@ namespace Nexer.Data.Mapping
                 .IsRequired()
                 .HasColumnType("varchar(200)");
 
-            builder.Property(x => x.Description)
-                .IsRequired()
-                .HasColumnType("varchar(1000)");
+            //builder.Property(x => x.Description)
+            //    .IsRequired()
+            //    .HasColumnType("varchar(1000)");
 
             builder.ToTable("Products");
         }

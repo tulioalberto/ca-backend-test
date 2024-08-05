@@ -24,6 +24,8 @@ namespace Nexer.Business.Services
                 return;
             }
 
+            //verificar aqui ImportBillingsAsync()
+
             await _customerRepository.Add(customer);
         }
 
