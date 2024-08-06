@@ -96,12 +96,14 @@ Este endpoint importa dados a partir de APIs externas para popular as tabelas Bi
    ![Inclusão no Banco de Dados](images/1.png)
 
 2. **Validação e Importação de Dados**:
+   *Validação informada*: Disparo de notificação
    ![Validação](images/2.png)
+   *Criação do produto faltante*
    ![Criação de Produto](images/criacaoProduto.png)
+   *Importação realizada com sucesso*: 
    ![Importação Validada](images/validadoImport.png)
 
 3. **Listagem de Faturas**: 
-   ![Listagem de Faturas](docs/images/getBillings.png)
-
+   ![Listagem de Faturas](images/getBillings.png)
 
 ---
