@@ -4,8 +4,10 @@
 
 Documentação da API ca-backend-test. Esta API é projetada para gerenciar operações de faturamento de clientes. Abaixo, você encontrará informações detalhadas sobre as tecnologias utilizadas, como configurar o projeto e detalhes de cada endpoint disponível.
 
-Link da aplicação hospedado no plano Gratuito do Azure
-https://ca-backend-test-axdjabe2fthbcgfn.brazilsouth-01.azurewebsites.net//index.html
+Link da aplicação hospedada no plano gratuito do Azure:
+https://ca-backend-test-axdjabe2fthbcgfn.brazilsouth-01.azurewebsites.net/index.html
+
+Observação: A primeira consulta/persistência no banco de dados pode demorar ou falhar, pois o SQL Server está hospedado na subscription gratuita do Azure e pode ficar em stand-by.
 
 ## Tecnologias Utilizadas
 
@@ -13,6 +15,7 @@ https://ca-backend-test-axdjabe2fthbcgfn.brazilsouth-01.azurewebsites.net//index
 - **Entity Framework**
 - **FluentValidation**
 - **Swagger**
+- **Azure SQL Server**
 
 
 ## Endpoints da API
