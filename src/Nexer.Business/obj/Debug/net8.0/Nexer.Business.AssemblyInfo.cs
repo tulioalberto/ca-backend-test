@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Nexer.Business")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b48cb7d53d158227a51e5334dcd1eeac26db2b92")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06772c8961efa9bfea35a0163cc2ecaa7dc32755")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nexer.Business")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nexer.Business")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -8,19 +8,20 @@ using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Add services to the container.
 builder.Services.AddControllers()
-                 .ConfigureApiBehaviorOptions(options =>
-                 {
-                     options.SuppressModelStateInvalidFilter = true;
-                 });
+    .ConfigureApiBehaviorOptions(options =>
+    {
+        options.SuppressModelStateInvalidFilter = true;
+    });
 
 builder.Configuration.AddUserSecrets<Program>();
 
 var secretPassword = builder.Configuration["SECRETPASSWORD"];
 if (string.IsNullOrEmpty(secretPassword))
 {
-    throw new InvalidOperationException("Chaves nao encontradas");
-} 
+    throw new InvalidOperationException("Chaves não encontradas");
+}
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection").Replace("{Secret}", secretPassword);
 builder.Services.AddDbContext<MyDbContext>(options =>
@@ -34,8 +35,8 @@ builder.Services.AddHttpClient<IExternalBillingService, ExternalBillingService>(
 
 builder.Services.ResolveDependencies();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(options => {
+builder.Services.AddSwaggerGen(options =>
+{
     options.SwaggerDoc("v1", new OpenApiInfo
     {
         Version = "v1",
@@ -48,7 +49,7 @@ builder.Services.AddSwaggerGen(options => {
         },
         License = new OpenApiLicense
         {
-            Name = "Linkdin",
+            Name = "LinkedIn",
             Url = new Uri("https://www.linkedin.com/in/tulio-alberto-da-rocha-campos/")
         }
     });
@@ -57,58 +58,45 @@ builder.Services.AddSwaggerGen(options => {
     options.EnableAnnotations();
 });
 
-
-builder.Services.AddCors(options => {
+builder.Services.AddCors(options =>
+{
     options.AddPolicy("AllowAll",
-        builder => {
+        builder =>
+        {
             builder.AllowAnyOrigin()
                    .AllowAnyMethod()
                    .AllowAnyHeader();
         });
 });
 
-// Create an instance of IConfiguration and bind appsettings.json to it.
-var configuration = builder.Configuration;
-
-
 var app = builder.Build();
+
 app.UseStaticFiles();
 app.UseCors("AllowAll");
 
-//// Configure the HTTP request pipeline.
-//if (app.Environment.IsDevelopment()) {
-//    app.UseSwagger();
-//    app.UseSwaggerUI();
-//}
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage();
+}
 
-app.UseDeveloperExceptionPage();
-
-app.UseSwagger(option => {
+app.UseSwagger(option =>
+{
     option.RouteTemplate = "docs/{documentName}/swagger.json";
     option.SerializeAsV2 = true;
 });
 
-app.UseSwaggerUI(option => {
+app.UseSwaggerUI(option =>
+{
     option.DocumentTitle = "Open API";
     option.RoutePrefix = "";
-    option.SwaggerEndpoint("docs/v1/swagger.json", "Open API");
-
-    option.InjectStylesheet("swagger-ui/custom.css");
-    option.InjectJavascript("swagger-ui/custom.js");
+    option.SwaggerEndpoint("/docs/v1/swagger.json", "Open API");
+    option.InjectStylesheet("/swagger-ui/custom.css");
+    option.InjectJavascript("/swagger-ui/custom.js");
 });
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-app.UseSwagger();
-app.UseSwaggerUI();
-
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();
