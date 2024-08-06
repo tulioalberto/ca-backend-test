@@ -12,7 +12,6 @@ https://ca-backend-test-axdjabe2fthbcgfn.brazilsouth-01.azurewebsites.net//index
 - **.NET Core 8**
 - **Entity Framework**
 - **FluentValidation**
-- **Manipulador de Notificações**: Usado para manipular notificações em vez de exceções quando não for realmente uma exceção.
 - **Swagger**
 
 
