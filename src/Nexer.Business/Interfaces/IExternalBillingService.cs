@@ -8,6 +8,6 @@ namespace Nexer.Business.Interfaces
 {
     public interface IExternalBillingService
     {
-        Task ImportBillingsAsync(Guid customerId, Guid? productId = null);
+        Task ImportBillingsAsync(Guid customerId);
     }
 }

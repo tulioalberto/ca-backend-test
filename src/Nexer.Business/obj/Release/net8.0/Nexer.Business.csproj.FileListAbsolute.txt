@@ -1,0 +1,13 @@
+C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Business\bin\Release\net8.0\Nexer.Business.deps.json
+C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Business\bin\Release\net8.0\Nexer.Business.dll
+C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Business\bin\Release\net8.0\Nexer.Business.pdb
+C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Business\obj\Release\net8.0\Nexer.Business.csproj.AssemblyReference.cache
+C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Business\obj\Release\net8.0\Nexer.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Business\obj\Release\net8.0\Nexer.Business.AssemblyInfoInputs.cache
+C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Business\obj\Release\net8.0\Nexer.Business.AssemblyInfo.cs
+C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Business\obj\Release\net8.0\Nexer.Business.csproj.CoreCompileInputs.cache
+C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Business\obj\Release\net8.0\Nexer.Business.sourcelink.json
+C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Business\obj\Release\net8.0\Nexer.Business.dll
+C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Business\obj\Release\net8.0\refint\Nexer.Business.dll
+C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Business\obj\Release\net8.0\Nexer.Business.pdb
+C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Business\obj\Release\net8.0\ref\Nexer.Business.dll

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Nexer.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eadd77494060726c7c1f29e9497befc7898c0622")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b48cb7d53d158227a51e5334dcd1eeac26db2b92")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nexer.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nexer.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

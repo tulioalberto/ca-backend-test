@@ -29,9 +29,9 @@ namespace Nexer.Api.Controllers
         }
 
         [HttpPost("importBillingToLocalDb")]
-        public async Task<IActionResult> ImportBillings(Guid customerId, Guid? productId = null)
+        public async Task<IActionResult> ImportBillings(Guid customerId)
         {
-            await _externalBillingService.ImportBillingsAsync(customerId, productId);
+            await _externalBillingService.ImportBillingsAsync(customerId);
 
             if (!ModelState.IsValid) return CustomResponse(ModelState);
 

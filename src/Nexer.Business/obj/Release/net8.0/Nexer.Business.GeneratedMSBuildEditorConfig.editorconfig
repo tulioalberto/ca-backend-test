@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Nexer.Business
-build_property.ProjectDir = C:\Users\Tulio\Source\Repos\tulioalberto\ca-backend-test\src\Nexer.Business\
+build_property.ProjectDir = C:\Users\Tulio\source\repos\tulioalberto\ca-backend-test\src\Nexer.Business\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

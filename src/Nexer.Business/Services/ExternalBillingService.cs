@@ -33,7 +33,7 @@ namespace Nexer.Business.Services
             _billingRepository = billingRepository;
         }
 
-        public async Task ImportBillingsAsync(Guid customerId, Guid? productId = null)
+        public async Task ImportBillingsAsync(Guid customerId)
         {
             var response = await _httpClient.GetAsync("https://65c3b12439055e7482c16bca.mockapi.io/api/v1/billing");
             response.EnsureSuccessStatusCode();

@@ -97,12 +97,6 @@ app.UseSwaggerUI(option => {
     option.InjectJavascript("swagger-ui/custom.js");
 });
 
-
-
-
-
-
-
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
