@@ -87,12 +87,12 @@ Este endpoint importa dados a partir de APIs externas para popular as tabelas Bi
 ### Exemplos de Uso
 
 1. **Inclusão no banco de dados**: Primeiro cliente e produto da API externa Billing.
-   ![Inclusão no Banco de Dados](docs\images\1.png)
+   ![Inclusão no Banco de Dados](images/1.png)
 
 2. **Validação e Importação de Dados**:
-   ![Validação](docs/images/2.png)
-   ![Criação de Produto](docs/images/criacaoProduto.png)
-   ![Importação Validada](docs/images/validadoImport.png)
+   ![Validação](images/2.png)
+   ![Criação de Produto](images/criacaoProduto.png)
+   ![Importação Validada](images/validadoImport.png)
 
 3. **Listagem de Faturas**: 
    ![Listagem de Faturas](docs/images/getBillings.png)
