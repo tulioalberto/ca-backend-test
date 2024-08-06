@@ -42,6 +42,9 @@ https://ca-backend-test-axdjabe2fthbcgfn.brazilsouth-01.azurewebsites.net//index
 - PUT: Atualiza os detalhes de um produto específico.
 - DELETE: Remove um produto específico.
 
+## Relacionamentos EF
+![Inclusão no Banco de Dados](images/relacionamento.png)
+
 ## Executando o Projeto
 
 ### Ajustar a ConnectionString do Banco de Dados localmente
