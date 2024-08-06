@@ -4,6 +4,9 @@
 
 Documentação da API ca-backend-test. Esta API é projetada para gerenciar operações de faturamento de clientes. Abaixo, você encontrará informações detalhadas sobre as tecnologias utilizadas, como configurar o projeto e detalhes de cada endpoint disponível.
 
+Link da aplicação hospedado no plano Gratuito do Azure
+https://ca-backend-test-axdjabe2fthbcgfn.brazilsouth-01.azurewebsites.net//index.html
+
 ## Tecnologias Utilizadas
 
 - **.NET Core 8**
